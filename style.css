@@ -1,0 +1,38 @@
+.logo{
+    width: 110px;
+    height: 110px;
+}
+/*fondo de caja madre: navbar*/
+.container-fluid{
+background-color: rgb(31, 29, 29);
+}
+.navbar-expand-lg{
+    padding: 0px;
+}
+/*tamaño de letra de caja hija*/
+.nav-item{
+    font-size: 20px;
+}
+/*color a las letras del navbar*/
+.nav-link{
+    color: white;
+}
+/*orden de los vinculos*/
+.navbar-collapse{
+    display: flex;
+    flex-direction:row-reverse
+}
+/*Achicar las img del carruzel*/
+.carousel-inner img{
+   width: 500px;
+   height: 500px;
+}
+/*div con descripcion de encvio*/
+.send{
+    background-color:#D4EFDF  ;
+    padding: 20px;
+}
+.letra{
+    text-align: center;
+    font-size: 15px;
+}
