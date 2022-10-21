@@ -73,6 +73,16 @@ background-color: rgb(31, 29, 29);
    text-align: center;
    
 }
+.btn-primary{
+    background-color: #6a8876;
+    border: #6a8876;
+    padding: 20px;
+}
+.boton-pr{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 /*desplazamiento de las img del catalogo*/
 #contenido-1{
     display: flex;
