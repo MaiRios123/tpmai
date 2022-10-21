@@ -39,4 +39,54 @@ background-color: rgb(31, 29, 29);
     font-size: 15px;
     border: 1px rgb(172, 172, 172) solid;
     padding: 50px;
+    
+}
+.img-producto{
+    
+    margin: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+.img-rad-producto{
+    margin: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+.fuente{
+   width: 140px;
+   height: 140px; 
+   margin-top: auto;
+   /*no me gusta esta parte*/
+   margin-left: 130px;
+   margin-right: 130px;
+   text-align: center;
+}
+.fuente-2{
+    width: 190px;
+   height: 190px; 
+   margin-top: auto;
+   /*no me gusta esta parte*/
+   margin-left: 130px;
+   margin-right: 130px;
+   text-align: center;
+   
+}
+/*desplazamiento de las img del catalogo*/
+#contenido-1{
+    display: flex;
+    justify-content: center;
+}
+#contenido-2{
+    display: flex;
+    justify-content: center;
+}
+#descripcion {
+    display: flex;
+    justify-content: center;
+}
+#descripcion-2{
+    display: flex;
+    justify-content: center;
 }
