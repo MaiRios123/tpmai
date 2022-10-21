@@ -73,6 +73,25 @@ background-color: rgb(31, 29, 29);
    text-align: center;
    
 }
+
+#seccionfooter{
+    text-align: center;
+    background-color:rgb(31, 29, 29) ;
+    color: white;
+    padding:30px ;
+}
+.redes{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+table{ 
+    margin: 30px;
+    width: 100%;
+
+    
+}
+
 /*desplazamiento de las img del catalogo*/
 #contenido-1{
     display: flex;
