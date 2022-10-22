@@ -73,6 +73,11 @@ background-color: rgb(31, 29, 29);
    text-align: center;
    
 }
+.boton-pr{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
 #seccionfooter{
     text-align: center;
