@@ -1,0 +1,205 @@
+.logo{
+    width: 110px;
+    height: 110px;
+}
+/*fondo de caja madre: navbar*/
+.container-fluid{
+background-color: rgb(31, 29, 29);
+}
+.navbar-expand-lg{
+    padding: 0px;
+}
+/*tamaño de letra de caja hija*/
+.nav-item{
+    font-size: 20px;
+}
+/*color a las letras del navbar*/
+.nav-link{
+    color: white;
+}
+/*orden de los vinculos*/
+.navbar-collapse{
+    display: flex;
+    flex-direction:row-reverse
+}
+/*Achicar las img del carruzel*/
+
+.carousel-inner img{
+   width: 500px;
+   height: 500px;
+}
+/*div con descripcion de encvio*/
+.send{
+    background-color:#D4EFDF  ;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.productos{
+    text-align: center;
+    font-size: 15px;
+    border: 1px rgb(172, 172, 172) solid;
+    padding: 50px;
+    
+}
+.img-producto{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.envios{
+    text-align: center;
+    background-color: #D4EFDF;
+    padding: 30px;
+    font-size: 30px;
+}
+
+/*desplazamiento de las img del catalogo*/
+#tarjeta-catalogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 15px;
+}
+#contenido-1{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    }
+#fuente{
+    text-align: center;
+    width: 300px;
+}
+#posicionar-catalogo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#posicionar-catalogo-2{
+    display: flex;
+    justify-content: space-around;
+    justify-content:center;
+    flex-direction: row;
+}
+.precio{
+    text-align: center;
+}
+/*VINCULO A PRODUCTOS*/
+.btn-primary{
+    background-color: #6a8876;
+    border: #6a8876;
+    padding: 20px;
+}
+.boton-pr{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+.boton-pr a:hover{
+    background-color: #50685a;
+}
+/*terjeta de productos*/
+.sale{
+    margin-bottom: 0px;
+    text-align: center;
+    color: #6a8876;
+    font-size: 20px
+}
+.card{
+    margin: 4%;
+}
+.card-body{
+    padding-bottom: 0px;
+}
+#tarjeta{
+    display: flex;
+    justify-content: space-between;
+}
+/*sobre nosotros*/
+.card-1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+font-size: 20px;
+background-color: rgb(255, 223, 228);
+border-radius: 10px
+}
+
+/*pie de pagina*/
+#seccionfooter{
+    text-align: center;
+    background-color:rgb(31, 29, 29) ;
+    color: white;
+    padding:30px ;
+} 
+
+#datos-redes{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+#contacto{
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 20px;
+}
+#infodato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.datos{
+    display: flex;
+    justify-content: flex-start;
+}
+.medida{
+    width: 200px;
+    height: 200px;
+}
+.redes{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+/*responsive index*/
+@media (max-width:1000px){
+    #tarjeta-catalogo{
+     display: flex;
+     flex-wrap: wrap;
+    }
+    #posicionar-catalogo-2{
+     display: flex;
+     flex-wrap: wrap;
+    }
+    #contacto{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    #seccionfooter{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+ }
+ /*responsive productos*/
+ @media (max-width:1000px){
+    #tarjeta{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

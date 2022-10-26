@@ -4,9 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- 📍​inicio de menu de navegacion 📍​-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="logo" src="./img/cosmeticlogo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccionfooter">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- 🏁​Fin de menu de navegacion 🏁​-->
+
+    <div class="send">
+      ENVÍO GRATIS EN CABA EN COMPRAS SUPERIORES A $7000
+    </div>
     
+    <!-- 📍Inicio de carruzel📍 -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="img/cosmetic.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+          <img src="img/carruzel.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+          <img src="img/bath-salts-1620261_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+          <img src="img/paint-brush-3408995_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+          <img src="img/soap-making-5118212_1920.jpg" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  <!-- 🏁Fin de carruzel🏁 -->
+
+  <!-- 📍Catalogo de productos 📍 -->
+  <div id="subtitulo">
+    <div class="productos">Productos destacados</div>
+  </div>
+
+ <!-- precio en div -->
+<div id="posicionar-catalogo">
+  <div id="tarjeta-catalogo">
+    <div id="contenido-1">
+      <div><img src="./img/jabon.png" class="img-producto" alt=""></div>
+      <div id="fuente">Jabon artesanal</div>
+      <div><h4 class="precio">530$</h4></div>
+    </div>
+    <div id="tarjeta-catalogo">
+    <div id="contenido-1">
+      <div><img src="./img/perfume.png" class="img-producto" alt=""></div>
+      <div id="fuente">Elixir - Perfume Esenciall</div>
+      <div><h4 class="precio">580$</h4></div>
+    </div>
+    </div>
+    <div id="tarjeta-catalogo">
+      <div id="contenido-1">
+        <div><img src="./img/crmhidratante.png" class="img-producto" alt=""></div>
+        <div id="fuente">Crema Nutritiva Y Regeneradora De Rosa Mosqueta </div>
+        <div><h4 class="precio">2.050$</h4></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="posicionar-catalogo-2">
+  <div id="tarjeta-catalogo">
+    <div id="contenido-1">
+      <div><img src="./img/crema.png" class="img-producto" alt=""></div>
+      <div id="fuente">Crema Facial De Almendras - Diurna - Con Ácido Hialurónico - Hipoalergénica</div>
+      <div><h4 class="precio">2.650$</h4></div>
+    </div>
+  </div>
+  <div id="tarjeta-catalogo">
+    <div id="contenido-1">
+      <div><img src="./img/shampoyacondicionador.png" class="img-producto" alt=""></div>
+      <div id="fuente">Kit Shampoo Y Acondicionador Con Jabonera Liberté </div>
+      <div><h4 class="precio">2.600$</h4></div>
+    </div>
+  </div>
+</div>
+<!-- fin de precion en div -->
+ 
+ 
+  <!-- VINCULO A PRODUCTOS -->
+  <div class="boton-pr">
+    <a class="btn btn-primary" href="productos.html" role="button"><h2>¡Ver mas productos!</h2></a>
+    </div>
+  <!-- 🏁Fin de catalogo de productos 🏁-->
+  <div class="envios">
+    ¡Contactate con nosotros por medio de nuestras redes, hace tu compra y te lo enviamos!	
+  </div>
+
+<!-- seccion footer  -->
+<footer id="seccionfooter">
+  <h2>Contacto</h2>
+  <div id="contacto">
+    <div id="logo-white">
+      <img class="medida" src="./img/Captura de pantalla (259).png" alt="">
+    </div>
+    <div id="infodato">
+      <div>
+        <div class="datos"><h3>Telefono:2995432123</h3></div>
+        <div class="datos"><h3>Direccion: La Pampa 5851, CABA</h3></div>
+      </div>
+       <div id="datos-redes">
+        <div><a href="https://es-la.facebook.com/" target="_blank"><img src="./img/facebook.png" class="redes" alt=""></a></div>
+        <div><a href="https://www.instagram.com/" target="_blank"><img src="./img/logotipo-de-instagram.png" class="redes" alt=""></a></div>
+        <div><a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="./img/whatsapp.png" class="redes" alt=""></a></div>
+       </div>
+    </div>
+  </div>  
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 </html>
